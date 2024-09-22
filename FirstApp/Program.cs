@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            const string MyName = "Jane";
+            Console.WriteLine(MyName);
+            Console.ReadKey();
         }
     }
 }
