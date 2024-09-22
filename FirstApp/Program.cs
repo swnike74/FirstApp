@@ -13,6 +13,11 @@
             Console.WriteLine("\t My name is \n {0}", MyName);
             Console.WriteLine("\u0040");
             Console.WriteLine("\x23");
+
+            Console.WriteLine(0x0A);
+            Console.WriteLine(0b11);
+            Console.WriteLine(5.5);
+
             Console.ReadKey();
         }
     }
