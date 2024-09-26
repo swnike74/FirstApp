@@ -23,16 +23,25 @@
             Console.WriteLine(MyFavoriteDay);
             Console.WriteLine("\tПривет,\nмир!");
 
-            Console.WriteLine($"Мой возраст\t{MyAge}");
+            //Console.WriteLine($"Мой возраст\t{MyAge}");
 
             
 
-            Console.Write("Enter your name: ");
-            string name = Console.ReadLine();
-            Console.Write("Enter your age: ");
-            byte age = (byte)int.Parse(Console.ReadLine());
+            //Console.Write("Enter your name: ");
+            //string name = Console.ReadLine();
+            //Console.Write("Enter your age: ");
+            //byte age = (byte)int.Parse(Console.ReadLine());
+            //Console.WriteLine("Your name is {0} and age is {1} ", name, age);
+
+
+            Console.Write("Введите имя: ");
+            var name = Console.ReadLine();
+            Console.Write("Введите возраст: ");
+            var age = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Your name is {0} and age is {1} ", name, age);
-  
+            Console.Write("Введите день рождения: ");
+            var birthdate = Console.ReadLine();
+            Console.WriteLine("Your bithday is {0} ", birthdate);
 
             Console.ReadKey();
         }
